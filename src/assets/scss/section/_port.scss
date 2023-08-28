@@ -2,7 +2,7 @@
     width: 100%;
     margin-top: 30vh;
     padding-top: 56px;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 .port_inner {
@@ -44,6 +44,7 @@
 
         .port_item {
             width: 500px;
+            height: 75vh;
             background-color: var(--subBg100);
             padding: 2.5rem;
             margin-right: 20px;

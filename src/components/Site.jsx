@@ -1,35 +1,5 @@
 import React from "react";
-
-const siteText = [
-	{
-		text: ["make", "site compliant width", "webstandard"],
-		title: "Vite를 이용한 사이트 제작",
-		code: "/",
-		view: "/",
-		info: ["site coding", "production period : two days", "use steak : html5/css3, CSS Variable, Vite"]
-	},
-	{
-		text: ["make", "site compliant width", "webstandard"],
-		title: "React를 이용한 사이트 제작",
-		code: "/",
-		view: "/",
-		info: ["site coding", "production period : two days", "use steak : html5/css3, CSS Variable, React"]
-	},
-	{
-		text: ["make", "site compliant width", "webstandard"],
-		title: "뷰를 이용한 사이트 제작",
-		code: "/",
-		view: "/",
-		info: ["site coding", "production period : two days", "use steak : html5/css3, CSS Variable, Vue"]
-	},
-	{
-		text: ["make", "site compliant width", "webstandard"],
-		title: "넥스트 이용한 사이트 제작",
-		code: "/",
-		view: "/",
-		info: ["site coding", "production period : two days", "use steak : html5/css3, CSS Variable, Next"]
-	},
-]
+import { siteText } from "../constants";
 
 const Site = () => {
   	return (
@@ -56,12 +26,11 @@ const Site = () => {
 								<span>{site.info[2]}</span>
 							</div>
 						</article>
-					))}
-					
+					))};
 				</div>
 			</div>
 		</section>
-	)
-}
+	);
+};
 
-export default Site
+export default Site;

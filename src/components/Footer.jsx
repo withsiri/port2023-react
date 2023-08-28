@@ -1,22 +1,6 @@
 import React from "react";
+import { footerText } from "../constants";
 
-const footerText = [
-    {
-        title: "instagram",
-        desc: "https://www.instagram.com/",
-        link: "https://www.instagram.com/",
-    },
-    {
-        title: "github",
-        desc: "https://github.com/",
-        link: "https://github.com/",
-    },
-    {
-        title: "blog",
-        desc: "https://blog.naver.com/",
-        link: "https://blog.naver.com/",
-    },
-]
 
 const Footer = () => {
   return (
@@ -49,7 +33,7 @@ const Footer = () => {
                 </div> 
             </div>
         </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
